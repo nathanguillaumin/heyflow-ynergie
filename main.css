@@ -62,6 +62,7 @@ button.continue:hover, button.continue:focus {
   width:150px;
   height:150px;
   position:relative;
+  background: red;
 }
 .box .percent svg circle
 {
