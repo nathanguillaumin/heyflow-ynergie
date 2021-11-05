@@ -28,48 +28,65 @@ button.continue:hover, button.continue:focus {
 }
 
 /* Progress bar */
-@keyframes growProgressBar {
-  0%, 33% { --pgPercentage: 0; }
-  100% { --pgPercentage: var(--value); }
-}
+.RadialProgress {
+  --hue: 211;
+  --holesize: 50%;
+  --track-bg: hsl(233 34% 92%);
 
-@property --pgPercentage {
-  syntax: '<number>';
-  inherits: false;
-  initial-value: 0;
-}
-
-div[role="progressbar"] {
-  --size: 12rem;
-  --fg: #369;
-  --bg: #def;
-  --pgPercentage: var(--value);
-  animation: growProgressBar 3s 1 forwards;
-  width: var(--size);
-  height: var(--size);
-  border-radius: 50%;
+  block-size: 50vmin;
+  inline-size: 50vmin;
+  min-inline-size: 100px;
+  min-block-size: 100px;
   display: grid;
   place-items: center;
-  background: 
-    radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
-    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
-    ;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: calc(var(--size) / 5);
-  color: var(--fg);
+  position: relative;
+  font-weight: 700;
+  font-size: max(10vmin, 1.4rem);
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    z-index: -1;
+    background: conic-gradient(
+      hsl(var(--hue) 100% 36%) var(--progress, 0%),
+      var(--track-bg) var(--progress, 0%) 100%
+    );
+    
+    mask-image: radial-gradient(
+      transparent var(--holesize),
+      black calc(var(--holesize) + 0.5px)
+    );
+  }
 }
 
-div[role="progressbar"]::before {
-  counter-reset: percentage var(--value);
-  content: counter(percentage) '%';
+html {
+  block-size: 100%;
+  inline-size: 100%;
+  background: #f8fcff;
 }
 
-/* demo */
-body {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+.container-circle {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
 }
+
+
+@use postcss-preset-env {
+	stage: 0;
+	browsers: [
+		"last 1 Chrome versions",
+		"last 1 Firefox versions",
+		"last 1 Safari versions",
+		"last 1 Edge versions"
+	]
+}
+
 
