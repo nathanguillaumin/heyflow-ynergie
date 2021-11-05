@@ -30,9 +30,9 @@ button.continue:hover, button.continue:focus {
 /* Progress bar */
 .RadialProgress {
   --hue: 211;
-  --holesize: 50%;
+  --holesize: 55%;
   --track-bg: hsl(233 34% 92%);
-
+  
   block-size: 50vmin;
   inline-size: 50vmin;
   min-inline-size: 100px;
@@ -64,18 +64,13 @@ button.continue:hover, button.continue:focus {
   }
 }
 
-html {
-  block-size: 100%;
-  inline-size: 100%;
-  background: #f8fcff;
-}
-
 .container-circle {
   min-block-size: 100%;
   min-inline-size: 100%;
   box-sizing: border-box;
   display: grid;
   place-content: center;
+  font-family: system-ui;
 }
 
 
@@ -88,5 +83,3 @@ html {
 		"last 1 Edge versions"
 	]
 }
-
-
