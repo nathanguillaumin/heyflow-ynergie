@@ -29,7 +29,7 @@ button.continue:hover, button.continue:focus {
 
 /* Progress bar */
 .RadialProgress {
-  --hue: 211;
+  --hue: 34;
   --holesize: 55%;
   --track-bg: hsl(233 34% 92%);
   
