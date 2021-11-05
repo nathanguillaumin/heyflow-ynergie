@@ -15,16 +15,18 @@ h1, h2, h3, h4, .label {
 }
 
 /* Buttons */
-button.continue:hover:not(:focus):not(:focus-within) {
+button.continue {
   background-color: #C4C4C4;
   padding: 8px;
   border-radius: 41px;
+  text-align:center;
 }
 
 button.continue:hover, button.continue:focus {
   background: #EA7B6C;
   padding: 8px;
   border-radius: 41px;
+  border: none;
 }
 
 /* Progress bar */
