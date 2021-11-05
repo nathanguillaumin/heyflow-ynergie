@@ -44,7 +44,6 @@ button.continue:hover, button.continue:focus {
   align-items:center;
   position:relative;
   flex-direction:column;
-  box-shadow:0 30px 60px rgba(0,0,0,.4);
   transition: transform .2s;
 }
 /* .box:hover
@@ -62,7 +61,6 @@ button.continue:hover, button.continue:focus {
   width:150px;
   height:150px;
   position:relative;
-  background: red;
 }
 .box .percent svg circle
 {
