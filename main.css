@@ -1,3 +1,28 @@
-h1, h2, h3, h4 {
-  color:red;
+h1, h2, h3, h4, .label {
+  color: #374D78;
+  font-family: 'Poppins';
   }
+
+.main {
+  background-color: #FFFFFF;
+}
+
+/* Multiple choice options */
+.option-content {
+  background-color: #F5F9FF;
+  border-radius: 16px;
+  padding: 40px 20px 40px 20px!important;
+}
+
+/* Buttons */
+button.continue:hover:not(:focus):not(:focus-within) {
+  background-color: #C4C4C4;
+  padding: 8px;
+  border-radius: 41px;
+}
+
+button.continue:hover, button.continue:focus {
+  background: #EA7B6C;
+  padding: 8px;
+  border-radius: 41px;
+}
