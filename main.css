@@ -10,9 +10,20 @@ h1, h2, h3, h4, .
 
 /* Multiple choice options */
 .option-content {
-  background-color: #F5F9FF;
-  border-radius: 16px;
+  background-color: #F5F9FF !important;
+  border-radius: 16px !important;
   padding: 40px 20px 40px 20px!important;
+  box-shadow: none;
+  border-width: 0px;
+}
+
+.option-content:hover, .option-content:focus {
+  background: linear-gradient(90deg, #2359B1 0%, #3D69CD 50.47%, #7493F6 167.07%);
+  color: #FFFFF;
+  border-radius: 16px !important;
+  padding: 40px 20px 40px 20px!important;
+  box-shadow: none;
+  border-width: 0px;
 }
 
 /* Buttons */
@@ -57,14 +68,6 @@ button.continue:focus {
 .link {
   text-decoration: underline;
   text-decoration-color: #374D78;
-}
-
-/* Block choice */
-.option-content {
-  background: #F5F9FF;
-  box-shadow: none;
-  border-width: 0px;
-  border-radius: 16px;
 }
 
 .label-container > .label {
