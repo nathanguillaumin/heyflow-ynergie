@@ -108,6 +108,15 @@ body.hasHover .option-content.picture:hover .label {
   font-weight: 600 !important;
 }
 
+/* Input simple */
+input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):not([type='radio']):focus {
+  background: #F5F9FF;
+  border-radius: 33px;
+  border: none;
+  text-align: center;
+  color: #374D78;
+}
+
 /* Progress bar */
 .progress-circle {
    font-size: 20px;
