@@ -85,6 +85,11 @@ div.option-content.picture > div.label-container > div {
   color:#FFFFF!important;
 }
 
+body.hasHover .option-content.picture:hover .label {
+  color: #FFFFF !important;
+  font-weight: 600 !important;
+}
+
 /* Progress bar */
 .progress-circle {
    font-size: 20px;
