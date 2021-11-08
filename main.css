@@ -1,4 +1,5 @@
-h1, h2, h3, h4, .label {
+h1, h2, h3, h4, .
+{
   color: #374D78;
   font-family: 'Poppins';
   }
@@ -22,11 +23,39 @@ button.continue {
   text-align:center;
 }
 
-button.continue:hover, button.continue:focus {
+.graphic {
+  display: none;
+}
+
+.label-container {
+  width: 100%
+}
+
+button.continue:hover {
+  background: #FFFFFF;
+  border: 1px solid #EA7B6C;
+  padding: 8px;
+  border-radius: 41px;
+  text-align:center;
+}
+
+button.continue:focus {
   background: #EA7B6C;
   padding: 8px;
   border-radius: 41px;
-  border: none;
+  border: 1px solid #EA7B6C;
+  border-radius: 41px;
+  text-align:center;
+}
+
+.back, .back:focus, .back:hover {
+  color: #374D78;
+  background: none;
+}
+
+.generic-button {
+  text-decoration: underline;
+  text-decoration-color: #374D78;
 }
 
 /* Progress bar */
