@@ -259,6 +259,7 @@ button.continue:focus {
 .container-progress-bar {
   display:flex; 
   align-items:center;
+  background: #F5F9FF;
 }
 
 .first-line, .second-line {
