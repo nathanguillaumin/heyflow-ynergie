@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5
 
 .option-content:hover, .option-content:focus {
   background: linear-gradient(90deg, #2359B1 0%, #3D69CD 50.47%, #7493F6 167.07%)!important;
-  color: #FFFFF!important;
+  color: #FFFFFF!important;
   border-radius: 16px !important;
   padding: 40px 20px 40px 20px!important;
   box-shadow: none!important;
@@ -27,8 +27,12 @@ h1, h2, h3, h4, h5
 }
 
 .option-content.picture:hover {
-  color: #FFFFF!important;
+  color: #FFFFFF!important;
   font-family: 'Poppins';
+}
+
+div.image-container > div > svg {
+  color: #374D78!important
 }
 
 /* Buttons */
