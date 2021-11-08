@@ -43,6 +43,12 @@ body.hasHover .option-content.picture:hover .image-container svg{
   color: white!important
 }
 
+.multiple-choice-option .option-content {
+  padding: 12px 32px 12px 24px;
+  background: #F5F9FF;
+  border-radius: 16px;
+}
+
 
 /* Buttons */
 button.continue {
