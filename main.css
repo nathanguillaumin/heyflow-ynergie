@@ -58,6 +58,20 @@ button.continue:focus {
   text-decoration-color: #374D78;
 }
 
+/* Block choice */
+.option-content {
+  background: #F5F9FF;
+  box-shadow: none;
+  border-width: 0px;
+  border-radius: 16px;
+}
+
+.label-container > .label {
+  font-family: 'Poppins';
+  color: #374D78
+}
+
+
 /* Progress bar */
 .progress-circle {
    font-size: 20px;
@@ -235,6 +249,26 @@ button.continue:focus {
 .progress-circle.p98 .value-bar { transform: rotate(353deg); }
 .progress-circle.p99 .value-bar { transform: rotate(356deg); }
 .progress-circle.p100 .value-bar { transform: rotate(360deg); }
+
+.progress-circle > span {
+    font-family: 'Poppins';
+    color: #4081C8;
+    font-weight:700;
+}
+
+.container-progress-bar {
+  display:flex; 
+  align-items:center;
+}
+
+.first-line, .second-line {
+  color:#4081C8;
+  font-family: 'Poppins';
+}
+
+.first-line {
+  font-weight: 600;
+}
 
 /* Block alignments */
 .block {
