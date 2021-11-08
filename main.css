@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5
   border-width: 0px!important;
 }
 
+body.hasHover .option-content.picture:hover .label {
+  color: #FFFFFF;
+}
+
 .option-content:hover, .option-content:focus {
   background: linear-gradient(90deg, #2359B1 0%, #3D69CD 50.47%, #7493F6 167.07%)!important;
   color: #FFFFFF!important;
@@ -34,6 +38,11 @@ h1, h2, h3, h4, h5
 div.image-container > div > svg {
   color: #374D78!important
 }
+
+body.hasHover .option-content.picture:hover .image-container svg{
+  color: #FFFFFF!important
+}
+
 
 /* Buttons */
 button.continue {
