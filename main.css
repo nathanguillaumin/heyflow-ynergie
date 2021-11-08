@@ -56,6 +56,11 @@ button.continue:hover:not(:focus):not(:focus-within) {
   color: #EA7B6C;
 }
 
+button.continue:hover:not(:focus):not(:focus-within) .label {
+    color: #EA7B6C!important;
+    text-decoration: none;
+}
+
 button.continue:focus {
   background: #EA7B6C;
   padding: 8px;
