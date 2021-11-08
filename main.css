@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5
 }
 
 /* Multiple choice options */
-.option-content {
+div.option-content.picture {
   background-color: #F5F9FF !important;
   border-radius: 16px !important;
   padding: 40px 20px 40px 20px!important;
