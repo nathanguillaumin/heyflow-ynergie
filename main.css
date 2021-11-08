@@ -133,14 +133,14 @@ input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):n
 .progress-circle:after{
     border: none;
     position: absolute;
-    top: 0.35em;
-    left: 0.35em;
+    top: 0.72em;
+    left: 0.72em;
     text-align: center;
     display: block;
     border-radius: 50%;
-    width: 4.3em;
-    height: 4.3em;
-    background-color: white;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: #F5F9FF;
     content: " ";
 }
 /* Text inside the control */
