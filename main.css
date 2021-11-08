@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5
 }
 
 body.hasHover .option-content.picture:hover .label {
-  color: #FFFFFF;
+  color: white!important;
 }
 
 .option-content:hover, .option-content:focus {
@@ -40,7 +40,7 @@ div.image-container > div > svg {
 }
 
 body.hasHover .option-content.picture:hover .image-container svg{
-  color: #FFFFFF!important
+  color: white!important
 }
 
 
