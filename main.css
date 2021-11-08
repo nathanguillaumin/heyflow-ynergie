@@ -53,6 +53,7 @@ button.continue:hover:not(:focus):not(:focus-within) {
   padding: 8px;
   border-radius: 41px;
   text-align:center;
+  color: #EA7B6C;
 }
 
 button.continue:focus {
@@ -77,9 +78,12 @@ button.continue:focus {
 
 .label-container > .label {
   font-family: 'Poppins';
-  color: #374D78
+  color: #374D78!important;
 }
 
+.continue > div.content.align-space-between > div > span {
+  color:#FFFFF!important;
+}
 
 /* Progress bar */
 .progress-circle {
