@@ -31,7 +31,7 @@ button.continue {
   width: 100%
 }
 
-button.continue:hover {
+button.continue:hover:not(:focus):not(:focus-within) {
   background: #FFFFFF;
   border: 1px solid #EA7B6C;
   padding: 8px;
@@ -46,6 +46,7 @@ button.continue:focus {
   border: 1px solid #EA7B6C;
   border-radius: 41px;
   text-align:center;
+  box-shadow: none;
 }
 
 .back, .back:focus, .back:hover {
