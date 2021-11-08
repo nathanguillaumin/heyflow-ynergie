@@ -1,7 +1,7 @@
 h1, h2, h3, h4, .
 {
-  color: #374D78;
-  font-family: 'Poppins';
+  color: #374D78!important;
+  font-family: 'Poppins'!important;
   }
 
 .main {
@@ -13,17 +13,22 @@ h1, h2, h3, h4, .
   background-color: #F5F9FF !important;
   border-radius: 16px !important;
   padding: 40px 20px 40px 20px!important;
-  box-shadow: none;
-  border-width: 0px;
+  box-shadow: none!important;
+  border-width: 0px!important;
 }
 
 .option-content:hover, .option-content:focus {
-  background: linear-gradient(90deg, #2359B1 0%, #3D69CD 50.47%, #7493F6 167.07%);
-  color: #FFFFF;
+  background: linear-gradient(90deg, #2359B1 0%, #3D69CD 50.47%, #7493F6 167.07%)!important;
+  color: #FFFFF!important;
   border-radius: 16px !important;
   padding: 40px 20px 40px 20px!important;
-  box-shadow: none;
-  border-width: 0px;
+  box-shadow: none!important;
+  border-width: 0px!important;
+}
+
+.option-content.picture:hover {
+  color: #FFFFF!important;
+  font-family: 'Poppins';
 }
 
 /* Buttons */
@@ -264,6 +269,8 @@ button.continue:focus {
   display:flex; 
   align-items:center;
   background: #F5F9FF;
+  padding: 0 50px;
+  border-radius: 16px;
 }
 
 .first-line, .second-line {
