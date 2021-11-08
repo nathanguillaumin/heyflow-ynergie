@@ -110,11 +110,11 @@ body.hasHover .option-content.picture:hover .label {
 
 /* Input simple */
 input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):not([type='radio']):focus {
-  background: #F5F9FF;
-  border-radius: 33px;
-  border: none;
-  text-align: center;
-  color: #374D78;
+  background: #F5F9FF !important;
+  border-radius: 33px !important;
+  border: none !important;
+  text-align: center !important;
+  color: #374D78 !important;
 }
 
 /* Progress bar */
