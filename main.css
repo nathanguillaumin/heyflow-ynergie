@@ -367,3 +367,14 @@ input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):n
    justify-content: center;
    flex-direction: column;
 }
+
+/* Image */
+div.block-content.image-block.inner-narrow > div {
+  display: flex;
+}
+
+div.block-content.image-block.inner-narrow > div > img {
+  height: 100%;
+  width: 20%;
+  margin: 0 auto;
+}
