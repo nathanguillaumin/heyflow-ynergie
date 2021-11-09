@@ -5,7 +5,8 @@ h1, h2, h3, h4, h5
 }
 
 .main {
-  background-color: #FFFFFF;
+  background: linear-gradient(185.57deg, #F0F6FF 38.05%, #AFD1F9 106.51%);
+  transform: rotate(-0.11deg);
 }
 
 /* Multiple choice options */
