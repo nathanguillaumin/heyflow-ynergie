@@ -9,6 +9,16 @@ h1, h2, h3, h4, h5
   transform: rotate(-0.11deg);
 }
 
+.elements-container-inner {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(84, 93, 104, 0.2);
+  border-radius: 16px;
+}
+
+
 /* Multiple choice options */
 div.option-content.picture {
   background-color: #F5F9FF !important;
@@ -16,6 +26,14 @@ div.option-content.picture {
   padding: 40px 20px 40px 20px!important;
   box-shadow: none!important;
   border-width: 0px!important;
+}
+
+.multiple-choice.mc-smart-flex.picture .multiple-choice-option-container {
+  max-width: 400px!important;
+}
+
+.block-content {
+  width: 100%;
 }
 
 body.hasHover .option-content.picture:hover .label {
