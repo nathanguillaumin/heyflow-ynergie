@@ -344,7 +344,7 @@ input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):n
   display:flex; 
   align-items:center;
   background: #F5F9FF;
-  padding: 0 50px;
+  padding: 0 20px;
   border-radius: 16px;
 }
 
