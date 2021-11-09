@@ -42,7 +42,7 @@ div.option-content.picture {
   font-size: 1.5em;
   font-family: 'Poppins';
   color: #374D78!important;
-  text-align: center;
+  font-weight: 600;
 }
 
 .multiple-choice.mc-smart-flex.picture .multiple-choice-option-container {
