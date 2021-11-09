@@ -85,6 +85,9 @@ body.hasHover .option-content.picture:hover .image-container svg{
   border-radius: 16px;
 }
 
+.multiple-choice .multiple-choice-option-container {
+  margin-bottom: 20px;
+}
 
 /* Buttons */
 button.continue {
