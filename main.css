@@ -176,7 +176,7 @@ input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):n
     border: none;
     position: absolute;
     top: 0.72em;
-    left: 0.72em;
+    left: 0.75em;
     text-align: center;
     display: block;
     border-radius: 50%;
