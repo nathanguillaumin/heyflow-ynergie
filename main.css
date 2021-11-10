@@ -402,3 +402,8 @@ div.block-content.image-block.inner-narrow > div > img, img {
 header > div > div > div {
   max-width: 100%!important;
 }
+
+/* Footer */
+footer > div > div > div {
+  max-width: 100%!important;
+}
