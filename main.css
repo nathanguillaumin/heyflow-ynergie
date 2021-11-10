@@ -20,6 +20,19 @@ h1, h2, h3, h4, h5
   padding: 50px;
 }
 
+/* Media queries */
+@media (max-width: 1250px) {
+  .elements-container-inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+ .input-box.inner-narrow > div {
+    padding: 0!important;
+  }
+}
+
 .elements-container-inner > .block {
   width: 100% !important;
 }
