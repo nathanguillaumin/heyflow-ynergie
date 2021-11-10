@@ -66,6 +66,10 @@ div.option-content.picture {
   border-width: 0px!important;
 }
 
+.multiple-choice-inner:last-child {
+  width: 80%
+}
+
 .multiple-choice-label {
   margin-bottom:30px;
 }
@@ -112,7 +116,7 @@ body.hasHover .option-content.picture:hover .image-container svg{
 }
 
 .multiple-choice-option .option-content {
-  padding: 12px 32px 12px 24px;
+  padding: padding: 12px 24px;
   background: #F5F9FF;
   border-radius: 16px;
 }
