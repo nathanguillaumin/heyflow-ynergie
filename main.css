@@ -397,3 +397,8 @@ div.block-content.image-block.inner-narrow > div > img, img {
   width: 20%;
   margin: 0 auto;
 }
+
+/* Header */
+header > div > div > div {
+  max-width: 100%!important;
+}
