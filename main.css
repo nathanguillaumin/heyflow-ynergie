@@ -138,20 +138,13 @@ button.continue, button.submit {
 }
 
 button.continue:hover:not(:focus):not(:focus-within), button.submit:hover:not(:focus):not(:focus-within) {
-  padding: 8
-px
-!important;
-    border-radius: 41
-px
-!important;
-    border: 1
-px
- solid #EA7B6C!important;
-    border-radius: 41
-px
-!important;
-    text-align: center!important;
-    box-shadow: none!important;
+  padding: 8px!important;
+  border-radius: 41px!important;
+  border: 1px solid #EA7B6C!important;
+  border-radius: 41px!important;
+  text-align: center!important;
+  box-shadow: none!important;
+  background: #FFFFFF !important;
 }
 
 button.continue:hover:not(:focus):not(:focus-within) .label,
@@ -186,7 +179,7 @@ div.option-content.picture > div.label-container > div {
 }
 
 .continue > div.content.align-space-between > div > span {
-  color:#FFFFF!important;
+  color:#FFFFFF !important;
 }
 
 body.hasHover .option-content.picture:hover .label {
