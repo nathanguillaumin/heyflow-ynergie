@@ -121,7 +121,7 @@ body.hasHover .option-content.picture:hover .image-container svg{
 }
 
 /* Buttons */
-button.continue {
+button.continue, .submit {
   background-color: #C4C4C4;
   padding: 8px;
   border-radius: 41px;
@@ -136,7 +136,8 @@ button.continue {
   width: 100%
 }
 
-button.continue:hover:not(:focus):not(:focus-within) {
+button
+:hover:not(:focus):not(:focus-within) {
   background: #FFFFFF;
   border: 1px solid #EA7B6C;
   padding: 8px;
@@ -145,12 +146,13 @@ button.continue:hover:not(:focus):not(:focus-within) {
   color: #EA7B6C;
 }
 
-button.continue:hover:not(:focus):not(:focus-within) .label {
+button.continue:hover:not(:focus):not(:focus-within) .label,
+button.submit:hover:not(:focus):not(:focus-within) .label {
     color: #EA7B6C!important;
     text-decoration: none;
 }
 
-button.continue:focus {
+button.continue:focus, button.submit:focus {
   background: #EA7B6C;
   padding: 8px;
   border-radius: 41px;
