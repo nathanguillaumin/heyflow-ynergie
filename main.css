@@ -58,10 +58,17 @@ footer > div > div > div {
 
 
 /* Multiple choice options */
-div.option-content.picture {
+div.picture {
   background-color: #F5F9FF !important;
   border-radius: 16px !important;
   padding: 40px 20px 40px 20px!important;
+  box-shadow: none!important;
+  border-width: 0px!important;
+}
+
+div.option-content {
+  background-color: #F5F9FF !important;
+  border-radius: 16px !important;
   box-shadow: none!important;
   border-width: 0px!important;
 }
@@ -89,11 +96,11 @@ div.option-content.picture {
   width: 100%;
 }
 
-body.hasHover .option-content.picture:hover .label {
+body.hasHover .option-content:hover .label {
   color: #FFFFFF!important;
 }
 
-.option-content.picture:hover, .option-content.picture:focus {
+.picture:hover, .picture:focus {
   background: linear-gradient(90deg, #2359B1 0%, #3D69CD 50.47%, #7493F6 167.07%)!important;
   color: #FFFFFF!important;
   border-radius: 16px !important;
@@ -102,7 +109,15 @@ body.hasHover .option-content.picture:hover .label {
   border-width: 0px!important;
 }
 
-.option-content.picture:hover {
+.option-content:hover, .option-content:focus {
+  background: linear-gradient(90deg, #2359B1 0%, #3D69CD 50.47%, #7493F6 167.07%)!important;
+  color: #FFFFFF!important;
+  border-radius: 16px !important;
+  box-shadow: none!important;
+  border-width: 0px!important;
+}
+
+.option-content:hover {
   color: #FFFFFF!important;
   font-family: 'Poppins';
 }
