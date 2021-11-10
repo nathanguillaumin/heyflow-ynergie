@@ -137,8 +137,12 @@ button.continue, button.submit {
   width: 100%
 }
 
+button.continue:hover:not(:focus):not(:focus-within), button.submit:hover:not(:focus):not(:focus-within) {
+  background-color: white!important;
+}
 
-button.continue:hover:not(:focus):not(:focus-within) .label {
+button.continue:hover:not(:focus):not(:focus-within) .label,
+button.submit:hover:not(:focus):not(:focus-within) .label {
     color: #EA7B6C!important;
     text-decoration: none;
 }
