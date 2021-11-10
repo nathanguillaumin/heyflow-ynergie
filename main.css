@@ -141,15 +141,6 @@ button.continue, .submit {
   width: 100%
 }
 
-button
-:hover:not(:focus):not(:focus-within) {
-  background: #FFFFFF;
-  border: 1px solid #EA7B6C;
-  padding: 8px;
-  border-radius: 41px;
-  text-align:center;
-  color: #EA7B6C;
-}
 
 button.continue:hover:not(:focus):not(:focus-within) .label,
 button.submit:hover:not(:focus):not(:focus-within) .label {
@@ -157,14 +148,14 @@ button.submit:hover:not(:focus):not(:focus-within) .label {
     text-decoration: none;
 }
 
-button.continue:focus, button.submit:focus {
-  background: #EA7B6C;
-  padding: 8px;
-  border-radius: 41px;
-  border: 1px solid #EA7B6C;
-  border-radius: 41px;
-  text-align:center;
-  box-shadow: none;
+button.continue:focus, button.submit:focus, button.submit:focus-within {
+  background: #EA7B6C!important;
+  padding: 8px!important;
+  border-radius: 41px!important;
+  border: 1px solid #EA7B6C!important;
+  border-radius: 41px!important;
+  text-align:center!important;
+  box-shadow: none!important;
 }
 
 .back, .back:focus, .back:hover {
