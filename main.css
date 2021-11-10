@@ -11,7 +11,6 @@ h1, h2, h3, h4, h5
 
 .elements-container-inner {
   display: flex;
-  width: 80%!important;
   max-width: none!important;
   background: #FFFFFF;
   box-shadow: 0px 10px 30px rgba(84, 93, 104, 0.2);
@@ -34,6 +33,7 @@ h1, h2, h3, h4, h5
 
 .elements-container-inner > .block {
   width: 100% !important;
+  margin-right: 10px!important;
 }
 
 
