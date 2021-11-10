@@ -11,7 +11,6 @@ h1, h2, h3, h4, h5
 
 .elements-container-inner {
   display: flex;
-  flex-direction: column;
   width: 80%!important;
   max-width: none!important;
   background: #FFFFFF;
