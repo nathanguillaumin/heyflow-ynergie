@@ -35,6 +35,7 @@ footer > div > div > div {
 .container-style-plain {
   margin-top: 0!important;
   margin-bottom:0!important;
+  padding-top:0!important;
 }
 
 /* Media queries */
