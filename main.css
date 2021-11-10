@@ -138,7 +138,20 @@ button.continue, button.submit {
 }
 
 button.continue:hover:not(:focus):not(:focus-within), button.submit:hover:not(:focus):not(:focus-within) {
-  background-color: white!important;
+  padding: 8
+px
+!important;
+    border-radius: 41
+px
+!important;
+    border: 1
+px
+ solid #EA7B6C!important;
+    border-radius: 41
+px
+!important;
+    text-align: center!important;
+    box-shadow: none!important;
 }
 
 button.continue:hover:not(:focus):not(:focus-within) .label,
