@@ -401,9 +401,13 @@ div.block-content.image-block.inner-narrow > div > img, img {
 /* Header */
 header > div > div > div {
   max-width: 100%!important;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Footer */
 footer > div > div > div {
   max-width: 100%!important;
+  display: flex;
+  flex-direction: column;
 }
