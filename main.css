@@ -101,7 +101,7 @@ body.hasHover .option-content:hover .label {
 }
 
 .picture:hover > div > div > svg,
-.picture:hover > div > .label
+body.hasHover .option-content.picture:hover .label
 {
   color: #FFFFFF!important;
 }
