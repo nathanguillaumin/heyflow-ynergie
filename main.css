@@ -100,6 +100,12 @@ body.hasHover .option-content:hover .label {
   color: #FFFFFF!important;
 }
 
+.picture:hover > div > div > svg,
+.picture:hover > div > .label
+{
+  color: #FFFFFF!important;
+}
+
 .picture:hover:not(multiple-choice), .picture:focus:not(multiple-choice) {
   background: linear-gradient(90deg, #2359B1 0%, #3D69CD 50.47%, #7493F6 167.07%)!important;
   color: #FFFFFF!important;
