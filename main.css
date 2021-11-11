@@ -142,10 +142,10 @@ body.hasHover .option-content.picture:hover .image-container svg{
 
 /* Buttons */
 button.continue, button.submit {
-  background-color: #C4C4C4;
-  padding: 8px;
-  border-radius: 41px;
-  text-align:center;
+  background-color: #C4C4C4!important;
+  padding: 8px!important;
+  border-radius: 41px!important;
+  text-align:center!important;
 }
 
 .graphic {
@@ -405,6 +405,9 @@ input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):n
   background: #F5F9FF;
   padding: 0 20px;
   border-radius: 16px;
+  max-width: 400px!important;
+    margin: auto!important;
+    width: 95%!important;
 }
 
 .first-line, .second-line {
