@@ -450,4 +450,15 @@ div.block-content.image-block.inner-narrow > div > img, img {
   margin: 0 auto;
 }
 
+/* Checkboxes */
+.simple-checkbox .checkbox {
+  border-radius: 10px!important;
+  border: 1px solid #EA7B6C!important;
+}
+
+/* Largeur blocs 400px */
+.text-400 {
+  width: 400px;
+  margin: auto;
+}
 
