@@ -231,6 +231,15 @@ input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):n
   padding : 0!important;
 }
 
+.input-floating-label {
+  color: #0057B7!important;
+  padding-left:1em!important;
+}
+
+.simple-checkbox-content {
+  border: none!important;
+}
+
 /* Progress bar */
 .progress-circle {
    font-size: 20px;
