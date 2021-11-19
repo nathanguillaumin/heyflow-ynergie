@@ -222,9 +222,13 @@ body.hasHover .option-content:hover .label {
 input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):not([type='radio']):focus {
   background: #F5F9FF !important;
   border-radius: 33px !important;
-  border: none !important;
+  border: 1px solid #374D78;;
   text-align: center !important;
   color: #374D78 !important;
+}
+
+.input-box > div {
+  padding : 0!important;
 }
 
 /* Progress bar */
