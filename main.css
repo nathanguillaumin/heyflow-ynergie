@@ -240,6 +240,11 @@ input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):n
   border: none!important;
   margin-bottom: 30px;
   margin-top: 40px;
+  background: #F5F9FF!important;
+}
+
+.simple-checkbox-text {
+  color: rgb(55, 77, 120)!important;
 }
 
 /* Progress bar */
