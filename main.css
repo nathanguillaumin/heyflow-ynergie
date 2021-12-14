@@ -137,6 +137,16 @@ body.hasHover .option-content.picture:hover .label,
     border-bottom-left-radius: 5px!important;
 }
 
+.input-box.has-focus .input-decorator {
+  border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+    border-top: 1px solid #eaeaeb!important;
+    border-bottom: 1px solid #eaeaeb!important;
+    border-left: 1px solid #eaeaeb!important;
+    border-top-left-radius: 5px!important;
+    border-bottom-left-radius: 5px!important;
+}
+
 .input-box.show-error-instantly>div>.input.error.has-prefix input {
   border-left: 1px solid #d0011b !important;
 }
