@@ -125,6 +125,15 @@ body.hasHover .option-content.picture:hover .label,
   border-width: 0px!important;
 }
 
+/* Error handler input */
+.input-decorator.error {
+  border:none!important;
+}
+
+.input-box.show-error-instantly>div>.input.error.has-prefix {
+  border-left: 1px solid #d0011b !important;
+}
+
 .option-content:hover {
   color: #FFFFFF!important;
   font-family: 'Poppins';
