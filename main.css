@@ -146,6 +146,7 @@ body.hasHover .option-content.picture:hover .label,
     border-top-left-radius: 5px!important;
     border-bottom-left-radius: 5px!important;
   border-color:#eaeaeb!important;
+  box-shadow:none!important;
 }
 
 .input-box.show-error-instantly>div>.input.error.has-prefix input {
