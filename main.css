@@ -39,13 +39,13 @@ footer > div > div > div {
 }
 
 p, .simple-checkbox-text {
-  line-height: 32px;
+  line-height: 32px!important;
 }
 
 /* Media queries */
 @media (max-width: 500px) {
   p, .simple-checkbox-text {
-  line-height: 20px;
+  line-height: 20px!important;
   }
 }
 
@@ -167,6 +167,10 @@ body.hasHover .option-content.picture:hover .label,
   border-left: 1px solid #d0011b !important;
 }
 
+input[type="checkbox"]:focus{ 
+  outline:none; 
+}
+
 .option-content:hover {
   color: #FFFFFF!important;
   font-family: 'Poppins';
@@ -266,11 +270,13 @@ body.hasHover .option-content:hover .label {
 
 /* Input simple */
 input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):not([type='radio']):focus {
-  background: #F5F9FF !important;
+  background: #FFFFFF !important;
   border-radius: 33px !important;
   border: 1px solid #374D78;;
   text-align: center !important;
   color: #374D78 !important;
+  font-weight: 600!important;
+  text-align: left!important;
 }
 
 input {
@@ -295,7 +301,7 @@ input {
   border: none!important;
   margin-bottom: 30px;
   margin-top: 40px;
-  background: #F5F9FF!important;
+  background: #FFFFFF!important;
 }
 
 .simple-checkbox-text {
@@ -528,7 +534,7 @@ div.block-content.image-block.inner-narrow > div > img, img {
 /* Checkboxes */
 .simple-checkbox .checkbox {
   border-radius: 10px!important;
-  border: none!important;
+  border: 1px solid #374D78!important;
   top: 6px!important;
 }
 }
