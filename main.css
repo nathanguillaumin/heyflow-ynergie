@@ -279,6 +279,11 @@ input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):n
   color: #374D78 !important;
 }
 
+input {
+  font-weight: 600;
+  text-align: left!important;
+}
+
 .input-box.with-floating-label:not(.floating-label-inline) .input {
     margin-top: 2rem!important;
 }
