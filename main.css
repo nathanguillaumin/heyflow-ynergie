@@ -56,6 +56,11 @@ p, .simple-checkbox-text {
     flex-direction: column;
   }
   
+  @media (min-width: 1250px) {
+  .main {
+    width: 600px;
+  }
+  
  .input-box.inner-narrow > div {
     padding: 0!important;
   }
