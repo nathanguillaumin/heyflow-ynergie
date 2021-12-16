@@ -42,12 +42,6 @@ p, .simple-checkbox-text {
   line-height: 32px;
 }
 
-.checkbox {
-  background: #0057B7!important;
-  border: none!important;
-  top: 6px!important;
-}
-
 /* Media queries */
 @media (max-width: 500px) {
   p, .simple-checkbox-text {
@@ -534,7 +528,9 @@ div.block-content.image-block.inner-narrow > div > img, img {
 /* Checkboxes */
 .simple-checkbox .checkbox {
   border-radius: 10px!important;
-  border: 1px solid #EA7B6C!important;
+  border: none!important;
+  top: 6px!important;
+}
 }
 
 /* Largeur blocs 400px */
