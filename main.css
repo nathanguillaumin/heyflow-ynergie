@@ -38,13 +38,13 @@ footer > div > div > div {
   padding-top:0!important;
 }
 
-p {
+p, .simple-checkbox-text {
   line-height: 32px;
 }
 
 /* Media queries */
 @media (max-width: 500px) {
-  p {
+  p, .simple-checkbox-text {
   line-height: 20px;
   }
 }
@@ -64,6 +64,10 @@ p {
 .elements-container-inner > .block {
   width: 100% !important;
   margin-right: 10px!important;
+}
+
+.simple-checkbox-content {
+  background: #FFFFFF;
 }
 
 
