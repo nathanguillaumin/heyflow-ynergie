@@ -56,9 +56,9 @@ p, .simple-checkbox-text {
     flex-direction: column;
   }
   
-  @media (min-width: 1250px) {
+  @media (min-width: 900px) {
   .main {
-    width: 600px;
+    width: 600px!important;
   }
   }
   
