@@ -538,7 +538,8 @@ div.block-content.image-block.inner-narrow > div > img, img {
 
 /* Checkboxes */
 .simple-checkbox input:checked+.simple-checkbox-content .checkbox {
-  border: 1px solid #374D78!important;
+  border: 1px solid #0057B7!important;
+  background: #0057B7!important
 }
 
 .simple-checkbox .checkbox {
