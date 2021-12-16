@@ -303,6 +303,10 @@ input {
   padding-left:1em!important;
 }
 
+.input-box.with-floating-label, input:focus+.input-floating-label {
+  color: #374d78!important;
+}
+
 .simple-checkbox-content {
   border: none!important;
   margin-bottom: 30px;
