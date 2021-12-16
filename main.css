@@ -192,10 +192,14 @@ body.hasHover .option-content.picture:hover .image-container svg{
 
 /* Buttons */
 button.continue, button.submit {
-  background-color: #C4C4C4!important;
+  background: #EA7B6C!important;
   padding: 8px!important;
   border-radius: 41px!important;
   text-align:center!important;
+}
+
+button.submit .label {
+  font-weight:400!important;
 }
 
 .graphic {
