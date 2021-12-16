@@ -534,9 +534,16 @@ div.block-content.image-block.inner-narrow > div > img, img {
 /* Checkboxes */
 .simple-checkbox .checkbox {
   border-radius: 10px!important;
-  border: 1px solid #374D78!important;
+  border: 1px solid rgb(234, 123, 108) !important;;
   top: 6px!important;
 }
+
+.simple-checkbox input:focus+.simple-checkbox-content .checkbox {
+  box-shadow:none!important;
+}
+
+.simple-checkbox input:checked+.simple-checkbox-content .checkbox {
+  border: 1px solid #374D788!important;
 }
 
 /* Largeur blocs 400px */
