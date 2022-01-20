@@ -178,7 +178,7 @@ input[type="checkbox"]:focus{
 }
 
 .option-content:hover {
-  color: #FFFFFF!important;
+  color: #FFFFFF;
   font-family: 'Poppins';
 }
 
