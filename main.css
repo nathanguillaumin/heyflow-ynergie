@@ -276,7 +276,7 @@ body.hasHover .option-content:hover .label {
 
 /* Input simple */
 input:not([type='checkbox']):not([type='radio']), input:not([type='checkbox']):not([type='radio']):focus {
-  background: #FFFFFF !important;
+  background: #FFFFFF;
   border-radius: 33px !important;
   border: 1px solid #374D78;;
   text-align: center !important;
