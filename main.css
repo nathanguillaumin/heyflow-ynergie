@@ -138,11 +138,11 @@ body.hasHover .option-content.picture:hover .label,
 }
 
 .option-content:hover, .option-content:focus {
-  background: linear-gradient(90deg, #2359B1 0%, #3D69CD 50.47%, #7493F6 167.07%)!important;
-  color: #FFFFFF!important;
-  border-radius: 16px !important;
-  box-shadow: none!important;
-  border-width: 0px!important;
+  background: linear-gradient(90deg, #2359B1 0%, #3D69CD 50.47%, #7493F6 167.07%);
+  color: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: none;
+  border-width: 0px;
 }
 
 /* Error handler input */
