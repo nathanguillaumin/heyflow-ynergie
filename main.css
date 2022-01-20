@@ -270,7 +270,7 @@ div.option-content > div.label-container > div {
 }
 
 body.hasHover .option-content:hover .label {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
   font-weight: 600 !important;
 }
 
