@@ -87,7 +87,6 @@ div.picture:not(multiple-choice) {
 }
 
 div.option-content {
-  background-color: #F5F9FF;
   border-radius: 16px;
   box-shadow: none;
   border-width: 0px
