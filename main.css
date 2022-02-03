@@ -560,3 +560,19 @@ div.block-content.image-block.inner-narrow > div > img, img {
   margin: auto;
 }
 
+/* Back button */
+.back {
+    background: transparent!important;
+    color: #374D78;
+}
+
+.back-container {
+    width: 100%!important;
+    margin-left: 15%!important;
+    color: #374D78!important;
+}
+
+button:focus {
+    box-shadow: none!important;
+}
+
